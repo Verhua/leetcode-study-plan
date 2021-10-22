@@ -1,10 +1,10 @@
 Leet Code Study Plan
 ============
 
-[![Build Status](https://github.com/jormin/leetcode-study-plan/workflows/test/badge.svg?branch=master)](https://github.com/jormin/leetcode-study-plan/actions?query=workflow%3Atest)
-[![Codecov](https://codecov.io/gh/jormin/leetcode-study-plan/branch/master/graph/badge.svg?)](https://codecov.io/gh/jormin/leetcode-study-plan)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jormin/leetcode-study-plan)](https://goreportcard.com/report/github.com/jormin/leetcode-study-plan)
-[![](https://img.shields.io/badge/version-v1.0.0-success.svg)](https://github.com/jormin/leetcode-study-plan)
+[![Build Status](https://github.com/Verhua/leetcode-study-plan/workflows/test/badge.svg?branch=master)](https://github.com/Verhua/leetcode-study-plan/actions?query=workflow%3Atest)
+[![Codecov](https://codecov.io/gh/Verhua/leetcode-study-plan/branch/master/graph/badge.svg?)](https://codecov.io/gh/Verhua/leetcode-study-plan)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Verhua/leetcode-study-plan)](https://goreportcard.com/report/github.com/Verhua/leetcode-study-plan)
+[![](https://img.shields.io/badge/version-v1.0.0-success.svg)](https://github.com/Verhua/leetcode-study-plan)
 
 Leet Code 学习计划
 
