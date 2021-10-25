@@ -1,7 +1,7 @@
 package day01
 
 //import "fmt"
-//
+
 //func main()  {
 //	newArray  := []int{1,2,4,3,1}
 //	result := containsDuplicate(newArray)
