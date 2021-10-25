@@ -39,20 +39,32 @@ package day02
 //链接：https://leetcode-cn.com/problems/two-sum
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 // 3,2,3
+//func twoSum(nums []int, target int) []int {
+//	num1Index := 0
+//	for num1Index < len(nums)-1 {
+//		num2Index := num1Index + 1
+//		for num2Index < len(nums) {
+//			if nums[num1Index]+nums[num2Index] != target {
+//				num2Index++
+//				continue
+//			}
+//			if nums[num1Index]+nums[num2Index] == target {
+//				return []int{num1Index, num2Index}
+//			}
+//		}
+//		num1Index++
+//	}
+//	return nil
+//}
+// twoSum
 func twoSum(nums []int, target int) []int {
-	num1Index := 0
-	for num1Index < len(nums)-1 {
-		num2Index := num1Index + 1
-		for num2Index < len(nums) {
-			if nums[num1Index]+nums[num2Index] != target {
-				num2Index++
-				continue
-			}
-			if nums[num1Index]+nums[num2Index] == target {
-				return []int{num1Index, num2Index}
-			}
+	m := map[int]int{}
+	for i, v := range nums {
+		l := target - v
+		if j, ok := m[l]; ok {
+			return []int{j, i}
 		}
-		num1Index++
+		m[v] = i
 	}
 	return nil
 }
