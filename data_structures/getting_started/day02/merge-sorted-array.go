@@ -41,3 +41,27 @@ package day02
 //来源：力扣（LeetCode）
 //链接：https://leetcode-cn.com/problems/merge-sorted-array
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+func merge(nums1 []int, m int, nums2 []int, n int) {
+	res := make([]int, 0, m+n)
+	l := 0
+	r := 0
+	for {
+		// 左指针指到了nums1的尾部，此时需要把nums2右指针后面的全部元素写入
+		if l == m {
+			res = append(res, nums2[r:]...)
+			break
+		}
+		if r == n {
+			res = append(res, nums1[l:]...)
+			break
+		}
+		if nums1[l] < nums2[r] {
+			res = append(res, nums1[l])
+			l++
+		} else {
+			res = append(res, nums2[r])
+			r++
+		}
+	}
+	copy(nums1, res)
+}

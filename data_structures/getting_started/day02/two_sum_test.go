@@ -35,6 +35,11 @@ func TestTwoSum(t *testing.T) {
 			args: args{nums: []int{3, 2, 3}, target: 6},
 			want: []int{0, 2},
 		},
+		{
+			name: "test05",
+			args: args{nums: []int{}, target: 2},
+			want: []int{},
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
