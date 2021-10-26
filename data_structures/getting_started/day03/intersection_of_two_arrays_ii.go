@@ -32,22 +32,15 @@ func intersect(nums1 []int, nums2 []int) []int {
 	l := 0
 	r := 0
 
-	for {
-		if l >= len(nums1) || r >= len(nums2) {
-			break
-		}
+	for l < len(nums1) && r < len(nums2) {
 		if nums1[l] == nums2[r] {
 			res = append(res, nums1[l])
 			l++
 			r++
-			continue
-		}
-		if nums1[l] > nums2[r] {
+		} else if nums1[l] > nums2[r] {
 			r++
-			continue
 		} else {
 			l++
-			continue
 		}
 	}
 	return res
