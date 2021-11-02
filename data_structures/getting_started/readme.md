@@ -21,21 +21,21 @@
 
 #### 第 3 天：数组
 
-- [ ] [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) [简单] [数组, 哈希表, 双指针, 二分查找, 排序]
+- [x] [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) [简单] [数组, 哈希表, 双指针, 二分查找, 排序]
 
-- [ ] [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) [简单] [数组, 动态规划]
+- [x] [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) [简单] [数组, 动态规划]
 
 
 #### 第 4 天：数组
 
-- [ ] [566. 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/) [简单] [数组, 矩阵, 模拟]
+- [x] [566. 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/) [简单] [数组, 矩阵, 模拟]
 
-- [ ] [118. 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) [简单] [数组, 动态规划]
+- [x] [118. 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) [简单] [数组, 动态规划]
 
 
 #### 第 5 天：数组
 
-- [ ] [36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) [中等] [数组, 哈希表, 矩阵]
+- [x] [36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) [中等] [数组, 哈希表, 矩阵]
 
 - [ ] [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) [中等] [数组, 哈希表, 矩阵]
 
