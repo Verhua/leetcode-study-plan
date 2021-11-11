@@ -1,5 +1,7 @@
 package day05
 
+import "fmt"
+
 //给定一个m x n 的矩阵，如果一个元素为 0 ，则将其所在行和列的所有元素都设为 0 。请使用 原地 算法。
 //进阶：
 //
@@ -8,5 +10,23 @@ package day05
 //你能想出一个仅使用常量空间的解决方案吗？
 
 func setZeroes(matrix [][]int) {
-
+	row := make([]bool, len(matrix))
+	col := make([]bool, len(matrix[0]))
+	for i, r := range matrix {
+		for j, v := range r {
+			if v == 0 {
+				row[i] = true
+				col[j] = true
+			}
+		}
+	}
+	fmt.Println("row", row)
+	fmt.Println("col", col)
+	for i, r := range matrix {
+		for j := range r {
+			if row[i] || col[j] {
+				r[j] = 0
+			}
+		}
+	}
 }
